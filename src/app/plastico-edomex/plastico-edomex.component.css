@@ -28,8 +28,7 @@ a {
   src: url("https://anima-uploads.s3.amazonaws.com/projects/68a8cc887f4d3b16d0728dd1/fonts/regestogrotesk-regular.ttf")
     format("truetype");
 }
-
-.entrada-protege-una {
+.entrada-bolsas {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +37,7 @@ a {
   background-color: #f5f5f5;
 }
 
-.entrada-protege-una .nav-bar {
+.entrada-bolsas .nav-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -52,49 +51,31 @@ a {
   background-color: #000000;
 }
 
-.entrada-protege-una .dialogo {
+.entrada-bolsas .dialogo {
+  position: relative;
+  width: 139px;
+}
+
+.entrada-bolsas .frame {
   display: flex;
-  flex-direction: column;
-  width: 139px;
-  align-items: center;
-  gap: 10px;
-  position: relative;
-}
-
-.entrada-protege-una .logo-dialogo {
-  position: relative;
-  width: 139px;
-  height: 34px;
-}
-
-.entrada-protege-una .frame {
   flex-wrap: wrap;
   width: 279px;
   align-items: center;
   gap: 10px 10px;
   padding: 10px;
+  position: relative;
   border-radius: 20px;
   border: 1px solid;
   border-color: #5a5a5a;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .search {
+.entrada-bolsas .img {
   position: relative;
   width: 24px;
   height: 24px;
 }
 
-.entrada-protege-una .vector {
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  top: 3px;
-  left: 3px;
-}
-
-.entrada-protege-una .buscar {
+.entrada-bolsas .buscar {
   position: relative;
   flex: 1;
   flex-grow: 1;
@@ -110,11 +91,11 @@ a {
   padding: 0;
 }
 
-.entrada-protege-una .buscar::placeholder {
+.entrada-bolsas .buscar::placeholder {
   color: #5a5a5a99;
 }
 
-.entrada-protege-una .img {
+.entrada-bolsas .frame-2 {
   position: relative;
   flex: 1;
   min-width: 300px;
@@ -122,52 +103,63 @@ a {
   flex-grow: 1;
 }
 
-.entrada-protege-una .body {
+.entrada-bolsas .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 105px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .body {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
   align-items: center;
   gap: 40px;
-  padding: 0px 40px;
+  padding: 0px 50px;
   position: relative;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .div {
+.entrada-bolsas .frame-4 {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-2 {
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+.entrada-bolsas .frame-5 {
   display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .div-wrapper {
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .text-wrapper {
+.entrada-bolsas .text-wrapper {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -180,465 +172,401 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .el-derecho-al {
+.entrada-bolsas .p {
   position: relative;
   align-self: stretch;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
   color: #000000;
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .billete-ok {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  aspect-ratio: 1.78;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-3 {
+.entrada-bolsas .frame-6 {
+  display: flex;
   flex-wrap: wrap;
+  min-width: 320px;
   align-items: center;
-  gap: 40px 40px;
+  justify-content: center;
+  gap: 28px 28px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
+  border-radius: 10px;
+  background-image: url(https://c.animaapp.com/oI9TknaH/img/frame-22.svg);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-.entrada-protege-una .text-wrapper-2 {
+.entrada-bolsas .frame-7 {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  gap: 42px;
+  padding: 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .text-wrapper-3 {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
-  color: #278f93;
+  color: #ffffff;
   font-size: 20px;
-  text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-4 {
+.entrada-bolsas .captura-de-pantalla {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  flex-grow: 1;
+  min-height: 171.46px;
+  aspect-ratio: 1.75;
+}
+
+.entrada-bolsas .frame-8 {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-wrapper {
+.entrada-bolsas .frame-9 {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-5 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 10px 10px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .p {
-  position: relative;
-  flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-6 {
-  flex-direction: column;
-  align-items: center;
-  gap: 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-7 {
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-8 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-9 {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 36px 36px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-10 {
-  flex-direction: column;
-  min-width: 340px;
-  align-items: flex-start;
-  gap: 30px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-11 {
-  flex-direction: column;
-  min-width: 340px;
-  align-items: flex-start;
-  gap: 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-3 {
+.entrada-bolsas .text-wrapper-4 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
-  font-size: 30px;
+  font-size: 50px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-12 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 30px 30px;
+.entrada-bolsas .text-wrapper-5 {
+  position: relative;
   align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-4 {
-  position: relative;
-  flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
   color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
+  font-size: 20px;
+  letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-13 {
+.entrada-bolsas .frame-10 {
+  display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 60px 60px;
+  align-items: center;
+  gap: 40px 40px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-14 {
-  flex-direction: column;
-  min-width: 390px;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
+.entrada-bolsas .recurso {
   position: relative;
-}
-
-.entrada-protege-una .recurso {
-  position: relative;
-  max-width: 300px;
-  width: 100%;
-  max-height: 492.31px;
-  aspect-ratio: 0.61;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-15 {
-  flex-direction: column;
-  min-width: 390px;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 0px 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-5 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-16 {
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .recurso-2 {
-  position: relative;
-  min-width: 390px;
-  max-width: 480px;
-  width: 100%;
-  min-height: 391.15px;
-  max-height: 481.41px;
+  width: 267px;
+  height: 267px;
   aspect-ratio: 1;
   object-fit: cover;
 }
 
-.entrada-protege-una .frame-17 {
+.entrada-bolsas .text-wrapper-6 {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .text-wrapper-7 {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-11 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 51px 131px;
+  gap: 60px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .frame-18 {
-  gap: 25px;
+.entrada-bolsas .frame-12 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 36px 36px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-13 {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
   flex: 1;
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
 }
 
-.entrada-protege-una .frame-19 {
-  min-width: 390px;
-  gap: 80px;
-  padding: 0px 40px;
+.entrada-bolsas .frame-14 {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
 }
 
-.entrada-protege-una .frame-20 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #ffffff;
-  border-radius: 20px;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .cu-les-ser-n-las {
+.entrada-bolsas .text-wrapper-8 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
-  font-size: 30px;
-  text-align: center;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-21 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 25px 25px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+.entrada-bolsas .frame-15 {
   display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-6 {
-  position: relative;
-  flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .text-wrapper-7 {
-  position: relative;
-  flex: 1;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-22 {
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 40px 40px;
-  padding: 0px 40px;
+  gap: 10px;
+  padding: 10px 7px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .text-wrapper-9 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-bolsas .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .frame-16 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px 20px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .recurso-3 {
+.entrada-bolsas .text-wrapper-11 {
   position: relative;
-  width: 210px;
-  height: 218px;
-  aspect-ratio: 0.96;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-bolsas .recurso-2 {
+  position: relative;
+  flex: 1;
+  min-width: 390px;
+  flex-grow: 1;
+  min-height: 242.74px;
+  aspect-ratio: 1.61;
   object-fit: cover;
 }
 
-.entrada-protege-una .frame-23 {
+.entrada-bolsas .frame-17 {
   display: flex;
-  flex-direction: column;
-  min-width: 220px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 131px;
+  gap: 20px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .recurso-3 {
+  position: relative;
+  width: 267px;
+  height: 221.25px;
+  aspect-ratio: 1.21;
+  object-fit: cover;
+}
+
+.entrada-bolsas .frame-18 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 340px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 20px;
   position: relative;
   flex: 1;
   flex-grow: 1;
 }
 
-.entrada-protege-una .cuando-hablamos-de-wrapper {
-  min-width: 350px;
+.entrada-bolsas .frame-19 {
+  display: flex;
+  min-width: 290px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.entrada-bolsas .frame-20 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 131px 131px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-bolsas .frame-21 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
   gap: 25px;
   padding: 0px 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.entrada-protege-una .frame-24 {
-  display: flex;
-  flex-direction: column;
-  min-width: 220px;
-  align-items: center;
-  gap: 131px;
   position: relative;
   flex: 1;
   flex-grow: 1;
 }
 
-.entrada-protege-una .frame-25 {
-  gap: 25px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.entrada-bolsas .recurso-4 {
   position: relative;
+  flex: 1;
+  min-width: 390px;
+  flex-grow: 1;
+  min-height: 322.7px;
+  aspect-ratio: 1.21;
+  object-fit: cover;
 }
 
-.entrada-protege-una .frame-26 {
-  flex-direction: column;
-  align-items: center;
-  gap: 105px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+.entrada-bolsas .frame-22 {
   display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-27 {
   flex-direction: column;
   align-items: center;
   gap: 80px;
   padding: 0px 30px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .boton {
+.entrada-bolsas .boton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -650,7 +578,7 @@ a {
   border-radius: 10px;
 }
 
-.entrada-protege-una .leer-art-culo {
+.entrada-bolsas .leer-art-culo {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -663,19 +591,18 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .comando {
+.entrada-bolsas .comando {
   display: flex;
-  max-width: 1000px;
   align-items: center;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
   padding: 0px 40px;
   position: relative;
+  align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .anterior {
+.entrada-bolsas .frame-23 {
   display: inline-flex;
   align-items: center;
   justify-content: flex-end;
@@ -686,20 +613,13 @@ a {
   transition: all 0.2s ease;
 }
 
-.entrada-protege-una .anterior:hover {
+.entrada-bolsas .frame-23:hover {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .vector-2 {
-  position: relative;
-  width: 7.41px;
-  height: 12px;
-}
-
-.entrada-protege-una .text-wrapper-8 {
+.entrada-bolsas .text-wrapper-12 {
   position: relative;
   width: fit-content;
-  margin-top: -1.00px;
   font-family: "Regesto Grotesk-Regular", Helvetica;
   font-weight: 400;
   color: #96134b;
@@ -708,7 +628,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .siguiente {
+.entrada-bolsas .frame-24 {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -718,14 +638,13 @@ a {
   transition: all 0.2s ease;
 }
 
-.entrada-protege-una .siguiente:hover {
+.entrada-bolsas .frame-24:hover {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .text-wrapper-9 {
+.entrada-bolsas .text-wrapper-13 {
   position: relative;
   width: fit-content;
-  margin-top: -1.00px;
   font-family: "Regesto Grotesk-Regular", Helvetica;
   font-weight: 400;
   color: #96134b;
@@ -735,34 +654,34 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-28 {
+.entrada-bolsas .frame-25 {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 15px;
   padding: 80px 0px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   border-radius: 20px;
-  background-image: url('/ciudadano/img/frame-46.svg');
+  background-image: url(https://c.animaapp.com/oI9TknaH/img/frame-46.svg);
   background-size: cover;
   background-position: 50% 50%;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-29 {
+.entrada-bolsas .frame-26 {
+  display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .text-wrapper-10 {
+.entrada-bolsas .text-wrapper-14 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -775,7 +694,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .text-wrapper-11 {
+.entrada-bolsas .text-wrapper-15 {
   position: relative;
   align-self: stretch;
   font-family: "Regesto Grotesk-Bold", Helvetica;
@@ -787,34 +706,34 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-30 {
+.entrada-bolsas .frame-27 {
+  display: flex;
   flex-wrap: wrap;
   max-width: 390px;
   align-items: center;
   justify-content: center;
   gap: 10px 10px;
   padding: 0px 20px;
+  position: relative;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-31 {
+.entrada-bolsas .frame-28 {
+  display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px 20px;
+  position: relative;
   flex: 1;
   flex-grow: 1;
   background-color: #ffffff;
   border-radius: 10px;
   border: 1px solid;
   border-color: #d9d9d9;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .text-wrapper-12 {
+.entrada-bolsas .text-wrapper-16 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -826,18 +745,18 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-32 {
+.entrada-bolsas .frame-29 {
+  display: flex;
   width: 105px;
   align-items: center;
   gap: 10px;
   padding: 10px 20px;
+  position: relative;
   background-color: #000000;
   border-radius: 10px;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .text-wrapper-13 {
+.entrada-bolsas .text-wrapper-17 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -849,7 +768,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .footer {
+.entrada-bolsas .footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -863,7 +782,7 @@ a {
   background-color: #ffffff;
 }
 
-.entrada-protege-una .recurso-4 {
+.entrada-bolsas .recurso-5 {
   position: relative;
   max-width: 290px;
   width: 290px;
@@ -873,7 +792,7 @@ a {
   object-fit: cover;
 }
 
-.entrada-protege-una .text-wrapper-14 {
+.entrada-bolsas .text-wrapper-18 {
   position: relative;
   width: fit-content;
   font-family: "Regesto Grotesk-Regular", Helvetica;

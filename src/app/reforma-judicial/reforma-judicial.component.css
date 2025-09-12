@@ -28,8 +28,7 @@ a {
   src: url("https://anima-uploads.s3.amazonaws.com/projects/68a8cc887f4d3b16d0728dd1/fonts/regestogrotesk-regular.ttf")
     format("truetype");
 }
-
-.entrada-protege-una {
+.entrada-reforma {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +37,7 @@ a {
   background-color: #f5f5f5;
 }
 
-.entrada-protege-una .nav-bar {
+.entrada-reforma .nav-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -52,7 +51,7 @@ a {
   background-color: #000000;
 }
 
-.entrada-protege-una .dialogo {
+.entrada-reforma .dialogo {
   display: flex;
   flex-direction: column;
   width: 139px;
@@ -61,13 +60,13 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .logo-dialogo {
+.entrada-reforma .logo-dialogo {
   position: relative;
   width: 139px;
   height: 34px;
 }
 
-.entrada-protege-una .frame {
+.entrada-reforma .frame {
   flex-wrap: wrap;
   width: 279px;
   align-items: center;
@@ -80,13 +79,13 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .search {
+.entrada-reforma .search {
   position: relative;
   width: 24px;
   height: 24px;
 }
 
-.entrada-protege-una .vector {
+.entrada-reforma .vector {
   position: absolute;
   width: 17px;
   height: 17px;
@@ -94,7 +93,7 @@ a {
   left: 3px;
 }
 
-.entrada-protege-una .buscar {
+.entrada-reforma .buscar {
   position: relative;
   flex: 1;
   flex-grow: 1;
@@ -110,11 +109,11 @@ a {
   padding: 0;
 }
 
-.entrada-protege-una .buscar::placeholder {
+.entrada-reforma .buscar::placeholder {
   color: #5a5a5a99;
 }
 
-.entrada-protege-una .img {
+.entrada-reforma .img {
   position: relative;
   flex: 1;
   min-width: 300px;
@@ -122,19 +121,19 @@ a {
   flex-grow: 1;
 }
 
-.entrada-protege-una .body {
+.entrada-reforma .body {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
   align-items: center;
   gap: 40px;
-  padding: 0px 40px;
+  padding: 0px 50px;
   position: relative;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .div {
+.entrada-reforma .frame-wrapper {
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
@@ -145,7 +144,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-2 {
+.entrada-reforma .div {
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -156,10 +155,10 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .div-wrapper {
+.entrada-reforma .frame-2 {
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 20px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -167,7 +166,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper {
+.entrada-reforma .text-wrapper {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -180,29 +179,10 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .el-derecho-al {
-  position: relative;
-  align-self: stretch;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .billete-ok {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  aspect-ratio: 1.78;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-3 {
+.entrada-reforma .frame-3 {
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 40px 40px;
   align-self: stretch;
   width: 100%;
@@ -211,45 +191,23 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-2 {
+.entrada-reforma .text-wrapper-2 {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
-  color: #278f93;
+  color: #ba935c;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-4 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-wrapper {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-5 {
+.entrada-reforma .frame-4 {
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 10px 10px;
+  gap: 8px 8px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -257,7 +215,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .p {
+.entrada-reforma .p {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
@@ -269,7 +227,15 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-6 {
+.entrada-reforma .billete-ok {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.entrada-reforma .frame-5 {
   flex-direction: column;
   align-items: center;
   gap: 60px;
@@ -280,28 +246,18 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-7 {
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-8 {
+.entrada-reforma .div-wrapper {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  flex: 1;
-  flex-grow: 1;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .frame-9 {
+.entrada-reforma .frame-6 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -313,9 +269,9 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-10 {
+.entrada-reforma .frame-7 {
   flex-direction: column;
-  min-width: 340px;
+  min-width: 250px;
   align-items: flex-start;
   gap: 30px;
   flex: 1;
@@ -324,31 +280,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-11 {
-  flex-direction: column;
-  min-width: 340px;
-  align-items: flex-start;
-  gap: 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-3 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-12 {
+.entrada-reforma .frame-8 {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
@@ -360,7 +292,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-4 {
+.entrada-reforma .text-wrapper-3 {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
@@ -372,135 +304,115 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-13 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 60px 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
+.entrada-reforma .billete {
   position: relative;
-}
-
-.entrada-protege-una .frame-14 {
-  flex-direction: column;
-  min-width: 390px;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
   flex: 1;
+  min-width: 200px;
   flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .recurso {
-  position: relative;
-  max-width: 300px;
-  width: 100%;
-  max-height: 492.31px;
-  aspect-ratio: 0.61;
+  height: 434px;
   object-fit: cover;
 }
 
-.entrada-protege-una .frame-15 {
+.entrada-reforma .frame-9 {
+  flex-wrap: wrap;
+  min-width: 280px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 131px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ba935c2e;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.entrada-reforma .billete-2 {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  flex-grow: 1;
+  min-height: 267.79px;
+  max-height: 401.69px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.entrada-reforma .frame-10 {
   flex-direction: column;
-  min-width: 390px;
+  min-width: 300px;
   align-items: flex-start;
   gap: 25px;
   padding: 0px 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+  flex: 1;
+  flex-grow: 1;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-5 {
+.entrada-reforma .text-wrapper-4 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
   color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
+  font-size: 30px;
+  letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-16 {
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .recurso-2 {
-  position: relative;
-  min-width: 390px;
-  max-width: 480px;
-  width: 100%;
-  min-height: 391.15px;
-  max-height: 481.41px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-17 {
-  display: flex;
+.entrada-reforma .frame-11 {
   flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 25px 25px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-reforma .frame-12 {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 51px 131px;
+  gap: 51px;
+  padding: 20px 0px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  border-radius: 10px;
 }
 
-.entrada-protege-una .frame-18 {
+.entrada-reforma .frame-13 {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 51px 51px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-reforma .frame-14 {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  align-items: center;
   gap: 25px;
+  padding: 0px 20px;
+  position: relative;
   flex: 1;
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
 }
 
-.entrada-protege-una .frame-19 {
-  min-width: 390px;
-  gap: 80px;
-  padding: 0px 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.entrada-protege-una .frame-20 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #ffffff;
-  border-radius: 20px;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .cu-les-ser-n-las {
+.entrada-reforma .text-wrapper-5 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -513,109 +425,93 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-21 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 25px 25px;
+.entrada-reforma .text-wrapper-6 {
+  position: relative;
   align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-6 {
-  position: relative;
-  flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
   color: #000000;
   font-size: 14px;
-  letter-spacing: 0;
+  text-align: center;
+  letter-spacing: 0.14px;
   line-height: normal;
 }
 
-.entrada-protege-una .text-wrapper-7 {
+.entrada-reforma .element {
   position: relative;
-  flex: 1;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-22 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px 40px;
-  padding: 0px 40px;
-  position: relative;
-  align-self: stretch;
+  max-width: 800px;
   width: 100%;
-  flex: 0 0 auto;
-}
-
-.entrada-protege-una .recurso-3 {
-  position: relative;
-  width: 210px;
-  height: 218px;
-  aspect-ratio: 0.96;
+  max-height: 264.38px;
+  aspect-ratio: 3.03;
   object-fit: cover;
 }
 
-.entrada-protege-una .frame-23 {
-  display: flex;
+.entrada-reforma .frame-15 {
   flex-direction: column;
-  min-width: 220px;
-  align-items: center;
-  justify-content: center;
-  gap: 131px;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.entrada-protege-una .cuando-hablamos-de-wrapper {
-  min-width: 350px;
+  min-width: 390px;
+  align-items: flex-start;
   gap: 25px;
   padding: 0px 20px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
 }
 
-.entrada-protege-una .frame-24 {
-  display: flex;
-  flex-direction: column;
-  min-width: 220px;
-  align-items: center;
-  gap: 131px;
+.entrada-reforma .text-wrapper-7 {
   position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.entrada-protege-una .frame-25 {
-  gap: 25px;
   align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-reforma .frame-16 {
+  flex-wrap: wrap;
+  max-width: 1440px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px 40px;
+  padding: 0px 30px;
   width: 100%;
   flex: 0 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
 }
 
-.entrada-protege-una .frame-26 {
+.entrada-reforma .frame-17 {
+  flex-direction: column;
+  min-width: 240px;
+  max-width: 244px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-reforma .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.18px;
+  line-height: normal;
+}
+
+.entrada-reforma .frame-18 {
   flex-direction: column;
   align-items: center;
   gap: 105px;
@@ -626,7 +522,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-27 {
+.entrada-reforma .frame-19 {
   flex-direction: column;
   align-items: center;
   gap: 80px;
@@ -638,7 +534,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .boton {
+.entrada-reforma .boton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -650,7 +546,7 @@ a {
   border-radius: 10px;
 }
 
-.entrada-protege-una .leer-art-culo {
+.entrada-reforma .leer-art-culo {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -663,7 +559,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .comando {
+.entrada-reforma .comando {
   display: flex;
   max-width: 1000px;
   align-items: center;
@@ -675,7 +571,7 @@ a {
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .anterior {
+.entrada-reforma .anterior {
   display: inline-flex;
   align-items: center;
   justify-content: flex-end;
@@ -686,17 +582,17 @@ a {
   transition: all 0.2s ease;
 }
 
-.entrada-protege-una .anterior:hover {
+.entrada-reforma .anterior:hover {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .vector-2 {
+.entrada-reforma .vector-2 {
   position: relative;
   width: 7.41px;
   height: 12px;
 }
 
-.entrada-protege-una .text-wrapper-8 {
+.entrada-reforma .text-wrapper-9 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -708,7 +604,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .siguiente {
+.entrada-reforma .siguiente {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -718,11 +614,11 @@ a {
   transition: all 0.2s ease;
 }
 
-.entrada-protege-una .siguiente:hover {
+.entrada-reforma .siguiente:hover {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .text-wrapper-9 {
+.entrada-reforma .text-wrapper-10 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -735,7 +631,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-28 {
+.entrada-reforma .frame-20 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -745,14 +641,14 @@ a {
   width: 100%;
   flex: 0 0 auto;
   border-radius: 20px;
-  background-image: url('/ciudadano/img/frame-46.svg');
+  background-image: url('/reforma/img/frame-46.svg');
   background-size: cover;
   background-position: 50% 50%;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .frame-29 {
+.entrada-reforma .frame-21 {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
@@ -762,7 +658,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-10 {
+.entrada-reforma .text-wrapper-11 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -775,7 +671,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .text-wrapper-11 {
+.entrada-reforma .text-wrapper-12 {
   position: relative;
   align-self: stretch;
   font-family: "Regesto Grotesk-Bold", Helvetica;
@@ -787,7 +683,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-30 {
+.entrada-reforma .frame-22 {
   flex-wrap: wrap;
   max-width: 390px;
   align-items: center;
@@ -800,7 +696,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-31 {
+.entrada-reforma .frame-23 {
   align-items: center;
   gap: 10px;
   padding: 10px 20px;
@@ -814,7 +710,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-12 {
+.entrada-reforma .text-wrapper-13 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -826,7 +722,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-32 {
+.entrada-reforma .frame-24 {
   width: 105px;
   align-items: center;
   gap: 10px;
@@ -837,7 +733,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-13 {
+.entrada-reforma .text-wrapper-14 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -849,7 +745,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .footer {
+.entrada-reforma .footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -863,7 +759,7 @@ a {
   background-color: #ffffff;
 }
 
-.entrada-protege-una .recurso-4 {
+.entrada-reforma .recurso {
   position: relative;
   max-width: 290px;
   width: 290px;
@@ -873,7 +769,7 @@ a {
   object-fit: cover;
 }
 
-.entrada-protege-una .text-wrapper-14 {
+.entrada-reforma .text-wrapper-15 {
   position: relative;
   width: fit-content;
   font-family: "Regesto Grotesk-Regular", Helvetica;

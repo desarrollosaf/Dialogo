@@ -28,8 +28,7 @@ a {
   src: url("https://anima-uploads.s3.amazonaws.com/projects/68a8cc887f4d3b16d0728dd1/fonts/regestogrotesk-regular.ttf")
     format("truetype");
 }
-
-.entrada-protege-una {
+.entrada-paridad-y-la {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +37,7 @@ a {
   background-color: #f5f5f5;
 }
 
-.entrada-protege-una .nav-bar {
+.entrada-paridad-y-la .nav-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -52,7 +51,7 @@ a {
   background-color: #000000;
 }
 
-.entrada-protege-una .dialogo {
+.entrada-paridad-y-la .dialogo {
   display: flex;
   flex-direction: column;
   width: 139px;
@@ -61,13 +60,13 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .logo-dialogo {
+.entrada-paridad-y-la .logo-dialogo {
   position: relative;
   width: 139px;
   height: 34px;
 }
 
-.entrada-protege-una .frame {
+.entrada-paridad-y-la .frame {
   flex-wrap: wrap;
   width: 279px;
   align-items: center;
@@ -80,13 +79,13 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .search {
+.entrada-paridad-y-la .search {
   position: relative;
   width: 24px;
   height: 24px;
 }
 
-.entrada-protege-una .vector {
+.entrada-paridad-y-la .vector {
   position: absolute;
   width: 17px;
   height: 17px;
@@ -94,7 +93,7 @@ a {
   left: 3px;
 }
 
-.entrada-protege-una .buscar {
+.entrada-paridad-y-la .buscar {
   position: relative;
   flex: 1;
   flex-grow: 1;
@@ -110,42 +109,53 @@ a {
   padding: 0;
 }
 
-.entrada-protege-una .buscar::placeholder {
+.entrada-paridad-y-la .buscar::placeholder {
   color: #5a5a5a99;
 }
 
-.entrada-protege-una .img {
-  position: relative;
-  flex: 1;
+.entrada-paridad-y-la .img {
   min-width: 300px;
   max-width: 300px;
+  position: relative;
+  flex: 1;
   flex-grow: 1;
 }
 
-.entrada-protege-una .body {
+.entrada-paridad-y-la .div {
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .body {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
   align-items: center;
   gap: 40px;
-  padding: 0px 40px;
+  padding: 0px 50px;
   position: relative;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .div {
+.entrada-paridad-y-la .frame-2 {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .frame-2 {
+.entrada-paridad-y-la .frame-3 {
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -156,18 +166,18 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .div-wrapper {
+.entrada-paridad-y-la .div-wrapper {
   flex-direction: column;
+  max-width: 950px;
   align-items: center;
   gap: 8px;
-  align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper {
+.entrada-paridad-y-la .text-wrapper {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -180,27 +190,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .el-derecho-al {
-  position: relative;
-  align-self: stretch;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .billete-ok {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  aspect-ratio: 1.78;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-3 {
+.entrada-paridad-y-la .frame-4 {
   flex-wrap: wrap;
   align-items: center;
   gap: 40px 40px;
@@ -211,56 +201,34 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-2 {
+.entrada-paridad-y-la .text-wrapper-2 {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
-  color: #278f93;
+  color: #87888b;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.entrada-protege-una .frame-4 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
+.entrada-paridad-y-la .p {
   position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.entrada-protege-una .frame-wrapper {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-5 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 10px 10px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .p {
+.entrada-paridad-y-la .text-wrapper-3 {
   position: relative;
   flex: 1;
-  margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
@@ -269,43 +237,21 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-6 {
-  flex-direction: column;
-  align-items: center;
-  gap: 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-7 {
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-8 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
+.entrada-paridad-y-la .billete-ok {
   flex: 1;
+  min-width: 280px;
   flex-grow: 1;
-  display: flex;
+  min-height: 157.5px;
   position: relative;
+  aspect-ratio: 1.78;
+  object-fit: cover;
 }
 
-.entrada-protege-una .frame-9 {
+.entrada-paridad-y-la .frame-5 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 36px 36px;
+  gap: 10px 10px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -313,22 +259,54 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-10 {
+.entrada-paridad-y-la .billete-ok-2 {
+  width: 300px;
+  height: 168.75px;
+  position: relative;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-6 {
   flex-direction: column;
-  min-width: 340px;
+  min-width: 280px;
   align-items: flex-start;
-  gap: 30px;
+  justify-content: center;
+  gap: 10px;
   flex: 1;
   flex-grow: 1;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .frame-11 {
-  flex-direction: column;
-  min-width: 340px;
-  align-items: flex-start;
-  gap: 20px;
+.entrada-paridad-y-la .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .se-entiende-por {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-7 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 40px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -336,10 +314,9 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-3 {
+.entrada-paridad-y-la .text-wrapper-5 {
   position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
+  flex: 1;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
@@ -348,69 +325,21 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-12 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 30px 30px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-4 {
+.entrada-paridad-y-la .recurso {
   position: relative;
   flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-13 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 60px 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-14 {
-  flex-direction: column;
-  min-width: 390px;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex: 1;
+  min-width: 300px;
   flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .recurso {
-  position: relative;
-  max-width: 300px;
-  width: 100%;
-  max-height: 492.31px;
-  aspect-ratio: 0.61;
+  min-height: 365.06px;
+  aspect-ratio: 0.82;
   object-fit: cover;
 }
 
-.entrada-protege-una .frame-15 {
-  flex-direction: column;
-  min-width: 390px;
+.entrada-paridad-y-la .frame-8 {
+  flex-wrap: wrap;
   align-items: flex-start;
-  gap: 25px;
-  padding: 0px 20px;
+  justify-content: center;
+  gap: 20px 20px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -418,78 +347,65 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-5 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-16 {
+.entrada-paridad-y-la .frame-wrapper {
+  display: flex;
   flex-direction: column;
+  min-width: 220px;
   align-items: center;
-  gap: 40px;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
   flex: 1;
   flex-grow: 1;
-  display: flex;
-  position: relative;
 }
 
-.entrada-protege-una .recurso-2 {
+.entrada-paridad-y-la .mujer {
   position: relative;
-  min-width: 390px;
-  max-width: 480px;
-  width: 100%;
-  min-height: 391.15px;
-  max-height: 481.41px;
+  width: 150px;
+  height: 150px;
   aspect-ratio: 1;
   object-fit: cover;
 }
 
-.entrada-protege-una .frame-17 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 51px 131px;
+.entrada-paridad-y-la .text-wrapper-6 {
   position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.entrada-protege-una .frame-18 {
-  gap: 25px;
   flex: 1;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.30px;
+  line-height: normal;
 }
 
-.entrada-protege-una .frame-19 {
+.entrada-paridad-y-la .mujer-x {
+  position: relative;
+  max-width: 150px;
+  width: 150px;
+  max-height: 150px;
+  height: 150px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-9 {
+  flex-direction: column;
   min-width: 390px;
+  align-items: flex-start;
   gap: 80px;
   padding: 0px 40px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
 }
 
-.entrada-protege-una .frame-20 {
+.entrada-paridad-y-la .frame-10 {
   flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
+  align-items: center;
+  gap: 80px;
   padding: 40px;
   align-self: stretch;
   width: 100%;
@@ -500,7 +416,275 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .cu-les-ser-n-las {
+.entrada-paridad-y-la .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .para-el-proceso-wrapper {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 25px 25px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .para-el-proceso {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-11 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px 25px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-12 {
+  flex-direction: column;
+  min-width: 300px;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .ilus {
+  position: relative;
+  max-width: 100px;
+  width: 100px;
+  max-height: 270.02px;
+  height: 270.02px;
+  aspect-ratio: 0.37;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-13 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .ilus-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.22;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-14 {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .ilus-3 {
+  position: relative;
+  width: 185px;
+  height: 248px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-15 {
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-16 {
+  flex-direction: column;
+  max-width: 1010px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-17 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .comisiones-LGBTT {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-18 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px 40px;
+  padding: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.entrada-paridad-y-la .frame-19 {
+  flex-direction: column;
+  min-width: 300px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .text-wrapper-13 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .clara-del-moral {
+  position: relative;
+  max-width: 212.09px;
+  width: 212.09px;
+  max-height: 300px;
+  height: 300px;
+  aspect-ratio: 0.71;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-20 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-14 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -513,10 +697,65 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-21 {
-  flex-wrap: wrap;
+.entrada-paridad-y-la .JUCOPO {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.76;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.entrada-paridad-y-la .frame-22 {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
   align-items: flex-start;
-  gap: 25px 25px;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .la-representaci-n {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .captura-de-pantalla {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.42;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-23 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 60px;
+  padding: 0px 40px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -524,98 +763,45 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-6 {
-  position: relative;
+.entrada-paridad-y-la .frame-24 {
+  flex-direction: column;
+  min-width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 131px;
   flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-25 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
   margin-top: -1.00px;
   font-family: "Regesto Grotesk-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
   line-height: normal;
 }
 
-.entrada-protege-una .text-wrapper-7 {
-  position: relative;
-  flex: 1;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-22 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px 40px;
-  padding: 0px 40px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.entrada-protege-una .recurso-3 {
-  position: relative;
-  width: 210px;
-  height: 218px;
-  aspect-ratio: 0.96;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-23 {
-  display: flex;
-  flex-direction: column;
-  min-width: 220px;
-  align-items: center;
-  justify-content: center;
-  gap: 131px;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.entrada-protege-una .cuando-hablamos-de-wrapper {
-  min-width: 350px;
-  gap: 25px;
-  padding: 0px 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.entrada-protege-una .frame-24 {
-  display: flex;
-  flex-direction: column;
-  min-width: 220px;
-  align-items: center;
-  gap: 131px;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.entrada-protege-una .frame-25 {
-  gap: 25px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.entrada-protege-una .frame-26 {
+.entrada-paridad-y-la .frame-26 {
   flex-direction: column;
   align-items: center;
   gap: 105px;
@@ -626,7 +812,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-27 {
+.entrada-paridad-y-la .frame-27 {
   flex-direction: column;
   align-items: center;
   gap: 80px;
@@ -638,7 +824,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .boton {
+.entrada-paridad-y-la .boton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -650,7 +836,7 @@ a {
   border-radius: 10px;
 }
 
-.entrada-protege-una .leer-art-culo {
+.entrada-paridad-y-la .leer-art-culo {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -663,7 +849,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .comando {
+.entrada-paridad-y-la .comando {
   display: flex;
   max-width: 1000px;
   align-items: center;
@@ -675,7 +861,7 @@ a {
   flex: 0 0 auto;
 }
 
-.entrada-protege-una .anterior {
+.entrada-paridad-y-la .anterior {
   display: inline-flex;
   align-items: center;
   justify-content: flex-end;
@@ -686,17 +872,17 @@ a {
   transition: all 0.2s ease;
 }
 
-.entrada-protege-una .anterior:hover {
+.entrada-paridad-y-la .anterior:hover {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .vector-2 {
+.entrada-paridad-y-la .vector-2 {
   position: relative;
   width: 7.41px;
   height: 12px;
 }
 
-.entrada-protege-una .text-wrapper-8 {
+.entrada-paridad-y-la .text-wrapper-16 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -708,7 +894,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .siguiente {
+.entrada-paridad-y-la .siguiente {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -718,11 +904,11 @@ a {
   transition: all 0.2s ease;
 }
 
-.entrada-protege-una .siguiente:hover {
+.entrada-paridad-y-la .siguiente:hover {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .text-wrapper-9 {
+.entrada-paridad-y-la .text-wrapper-17 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -735,7 +921,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-28 {
+.entrada-paridad-y-la .frame-28 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -745,14 +931,14 @@ a {
   width: 100%;
   flex: 0 0 auto;
   border-radius: 20px;
-  background-image: url('/ciudadano/img/frame-46.svg');
+  background-image: url('/paridad/img/frame-46.svg');
   background-size: cover;
   background-position: 50% 50%;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .frame-29 {
+.entrada-paridad-y-la .frame-29 {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
@@ -762,7 +948,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-10 {
+.entrada-paridad-y-la .text-wrapper-18 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -775,7 +961,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .text-wrapper-11 {
+.entrada-paridad-y-la .text-wrapper-19 {
   position: relative;
   align-self: stretch;
   font-family: "Regesto Grotesk-Bold", Helvetica;
@@ -787,7 +973,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-30 {
+.entrada-paridad-y-la .frame-30 {
   flex-wrap: wrap;
   max-width: 390px;
   align-items: center;
@@ -800,7 +986,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-31 {
+.entrada-paridad-y-la .frame-31 {
   align-items: center;
   gap: 10px;
   padding: 10px 20px;
@@ -814,7 +1000,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-12 {
+.entrada-paridad-y-la .text-wrapper-20 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -826,7 +1012,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-32 {
+.entrada-paridad-y-la .frame-32 {
   width: 105px;
   align-items: center;
   gap: 10px;
@@ -837,7 +1023,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-13 {
+.entrada-paridad-y-la .text-wrapper-21 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -849,7 +1035,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .footer {
+.entrada-paridad-y-la .footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -863,7 +1049,7 @@ a {
   background-color: #ffffff;
 }
 
-.entrada-protege-una .recurso-4 {
+.entrada-paridad-y-la .recurso-2 {
   position: relative;
   max-width: 290px;
   width: 290px;
@@ -873,7 +1059,7 @@ a {
   object-fit: cover;
 }
 
-.entrada-protege-una .text-wrapper-14 {
+.entrada-paridad-y-la .text-wrapper-22 {
   position: relative;
   width: fit-content;
   font-family: "Regesto Grotesk-Regular", Helvetica;

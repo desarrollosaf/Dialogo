@@ -28,7 +28,6 @@ a {
   src: url("https://anima-uploads.s3.amazonaws.com/projects/68a8cc887f4d3b16d0728dd1/fonts/regestogrotesk-regular.ttf")
     format("truetype");
 }
-
 .entrada-protege-una {
   display: flex;
   flex-direction: column;
@@ -68,16 +67,16 @@ a {
 }
 
 .entrada-protege-una .frame {
+  display: flex;
   flex-wrap: wrap;
   width: 279px;
   align-items: center;
   gap: 10px 10px;
   padding: 10px;
+  position: relative;
   border-radius: 20px;
   border: 1px solid;
   border-color: #5a5a5a;
-  display: flex;
-  position: relative;
 }
 
 .entrada-protege-una .search {
@@ -128,21 +127,21 @@ a {
   max-width: 1440px;
   align-items: center;
   gap: 40px;
-  padding: 0px 40px;
+  padding: 0px 50px;
   position: relative;
   width: 100%;
   flex: 0 0 auto;
 }
 
 .entrada-protege-una .div {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  position: relative;
 }
 
 .entrada-protege-una .frame-2 {
@@ -180,7 +179,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .el-derecho-al {
+.entrada-protege-una .text-wrapper-2 {
   position: relative;
   align-self: stretch;
   font-family: "Regesto Grotesk-Bold", Helvetica;
@@ -192,64 +191,10 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .billete-ok {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  aspect-ratio: 1.78;
-  object-fit: cover;
-}
-
 .entrada-protege-una .frame-3 {
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-2 {
-  position: relative;
-  flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #278f93;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-4 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-wrapper {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-5 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 10px 10px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -269,10 +214,18 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-6 {
-  flex-direction: column;
+.entrada-protege-una .billete-ok {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.entrada-protege-una .frame-4 {
+  flex-wrap: wrap;
   align-items: center;
-  gap: 60px;
+  gap: 40px 40px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -280,7 +233,66 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-7 {
+.entrada-protege-una .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #87888b;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-protege-una .frame-5 {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .text-wrapper-4 {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-protege-una .ilust-blog {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  flex-grow: 1;
+  min-height: 112.5px;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.entrada-protege-una .frame-6 {
+  flex-direction: column;
+  max-width: 850px;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0px;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-wrapper {
   align-items: center;
   justify-content: center;
   gap: 60px;
@@ -291,7 +303,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-8 {
+.entrada-protege-una .frame-7 {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
@@ -301,7 +313,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-9 {
+.entrada-protege-una .frame-8 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -313,7 +325,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-10 {
+.entrada-protege-una .frame-9 {
   flex-direction: column;
   min-width: 340px;
   align-items: flex-start;
@@ -324,7 +336,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-11 {
+.entrada-protege-una .frame-10 {
   flex-direction: column;
   min-width: 340px;
   align-items: flex-start;
@@ -336,171 +348,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-3 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-12 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 30px 30px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .text-wrapper-4 {
-  position: relative;
-  flex: 1;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-13 {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 60px 60px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .frame-14 {
-  flex-direction: column;
-  min-width: 390px;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .recurso {
-  position: relative;
-  max-width: 300px;
-  width: 100%;
-  max-height: 492.31px;
-  aspect-ratio: 0.61;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-15 {
-  flex-direction: column;
-  min-width: 390px;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 0px 20px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  position: relative;
-}
-
 .entrada-protege-una .text-wrapper-5 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0.14px;
-  line-height: normal;
-}
-
-.entrada-protege-una .frame-16 {
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .recurso-2 {
-  position: relative;
-  min-width: 390px;
-  max-width: 480px;
-  width: 100%;
-  min-height: 391.15px;
-  max-height: 481.41px;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.entrada-protege-una .frame-17 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 51px 131px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.entrada-protege-una .frame-18 {
-  gap: 25px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.entrada-protege-una .frame-19 {
-  min-width: 390px;
-  gap: 80px;
-  padding: 0px 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.entrada-protege-una .frame-20 {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
-  padding: 40px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #ffffff;
-  border-radius: 20px;
-  display: flex;
-  position: relative;
-}
-
-.entrada-protege-una .cu-les-ser-n-las {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -511,6 +359,199 @@ a {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.entrada-protege-una .frame-11 {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px 20px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-12 {
+  flex-direction: column;
+  min-width: 280px;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-13 {
+  flex-wrap: wrap;
+  max-width: 500px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 40px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .recurso {
+  position: relative;
+  width: 144px;
+  height: 145px;
+  aspect-ratio: 0.99;
+  object-fit: cover;
+}
+
+.entrada-protege-una .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0.30px;
+  line-height: normal;
+}
+
+.entrada-protege-una .text-wrapper-7 {
+  position: relative;
+  width: 200px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0.30px;
+  line-height: 21px;
+}
+
+.entrada-protege-una .frame-14 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-15 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .div-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0.30px;
+  line-height: normal;
+}
+
+.entrada-protege-una .span {
+  font-weight: 700;
+  letter-spacing: 0.09px;
+}
+
+.entrada-protege-una .text-wrapper-8 {
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-size: 14px;
+  letter-spacing: 0.02px;
+}
+
+.entrada-protege-una .zonas-especiales {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0.30px;
+  line-height: normal;
+}
+
+.entrada-protege-una .frame-16 {
+  flex-direction: column;
+  min-width: 390px;
+  max-width: 1440px;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 0px 40px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-17 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-18 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-19 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-protege-una .text-wrapper-9 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-protege-una .frame-20 {
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
 }
 
 .entrada-protege-una .frame-21 {
@@ -524,23 +565,12 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-6 {
+.entrada-protege-una .text-wrapper-10 {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.entrada-protege-una .text-wrapper-7 {
-  position: relative;
-  flex: 1;
-  font-family: "Regesto Grotesk-Bold", Helvetica;
-  font-weight: 700;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
   color: #000000;
   font-size: 14px;
   letter-spacing: 0;
@@ -548,74 +578,245 @@ a {
 }
 
 .entrada-protege-una .frame-22 {
+  flex-direction: column;
+  min-width: 220px;
+  align-items: flex-start;
+  flex: 1;
+  flex-grow: 1;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px 40px;
-  padding: 0px 40px;
   position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
 }
 
-.entrada-protege-una .recurso-3 {
+.entrada-protege-una .text-wrapper-11 {
   position: relative;
-  width: 210px;
-  height: 218px;
-  aspect-ratio: 0.96;
-  object-fit: cover;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: normal;
 }
 
 .entrada-protege-una .frame-23 {
-  display: flex;
-  flex-direction: column;
-  min-width: 220px;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: center;
-  gap: 131px;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.entrada-protege-una .cuando-hablamos-de-wrapper {
-  min-width: 350px;
-  gap: 25px;
-  padding: 0px 20px;
+  gap: 80px 80px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
 }
 
 .entrada-protege-una .frame-24 {
-  display: flex;
   flex-direction: column;
-  min-width: 220px;
-  align-items: center;
-  gap: 131px;
-  position: relative;
+  max-width: 1010px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
   flex: 1;
   flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-protege-una .text-wrapper-13 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0.30px;
+  line-height: normal;
 }
 
 .entrada-protege-una .frame-25 {
-  gap: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px 25px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
 }
 
+.entrada-protege-una .chiconcuac {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.20px;
+  line-height: normal;
+}
+
+.entrada-protege-una .ocuilan-otzoloapan {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.20px;
+  line-height: normal;
+}
+
+.entrada-protege-una .mapa {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+  max-width: 540px;
+  flex-grow: 1;
+  min-height: 231.24px;
+  max-height: 567.58px;
+  aspect-ratio: 0.95;
+  object-fit: cover;
+}
+
 .entrada-protege-una .frame-26 {
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0px 40px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .text-wrapper-14 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-protege-una .frame-27 {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px 25px;
+  padding: 30px 20px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-28 {
+  min-width: 220px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-protege-una .element {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #278f93;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-protege-una .frame-29 {
+  flex-wrap: wrap;
+  max-width: 1440px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 60px;
+  padding: 0px 40px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-30 {
+  flex-direction: column;
+  min-width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 131px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-protege-una .frame-31 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-protege-una .text-wrapper-16 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.30px;
+  line-height: normal;
+}
+
+.entrada-protege-una .frame-32 {
   flex-direction: column;
   align-items: center;
   gap: 105px;
@@ -626,7 +827,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-27 {
+.entrada-protege-una .frame-33 {
   flex-direction: column;
   align-items: center;
   gap: 80px;
@@ -696,7 +897,7 @@ a {
   height: 12px;
 }
 
-.entrada-protege-una .text-wrapper-8 {
+.entrada-protege-una .text-wrapper-17 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -722,7 +923,7 @@ a {
   transform: scale(1.1);
 }
 
-.entrada-protege-una .text-wrapper-9 {
+.entrada-protege-una .text-wrapper-18 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -735,7 +936,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-28 {
+.entrada-protege-una .frame-34 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -745,14 +946,14 @@ a {
   width: 100%;
   flex: 0 0 auto;
   border-radius: 20px;
-  background-image: url('/ciudadano/img/frame-46.svg');
+  background-image: url('/patrimonio/img/frame-46.svg');
   background-size: cover;
   background-position: 50% 50%;
   display: flex;
   position: relative;
 }
 
-.entrada-protege-una .frame-29 {
+.entrada-protege-una .frame-35 {
   flex-direction: column;
   align-items: center;
   align-self: stretch;
@@ -762,7 +963,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-10 {
+.entrada-protege-una .text-wrapper-19 {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -775,7 +976,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .text-wrapper-11 {
+.entrada-protege-una .text-wrapper-20 {
   position: relative;
   align-self: stretch;
   font-family: "Regesto Grotesk-Bold", Helvetica;
@@ -787,7 +988,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-30 {
+.entrada-protege-una .frame-36 {
   flex-wrap: wrap;
   max-width: 390px;
   align-items: center;
@@ -800,7 +1001,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .frame-31 {
+.entrada-protege-una .frame-37 {
   align-items: center;
   gap: 10px;
   padding: 10px 20px;
@@ -814,7 +1015,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-12 {
+.entrada-protege-una .text-wrapper-21 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -826,7 +1027,7 @@ a {
   line-height: normal;
 }
 
-.entrada-protege-una .frame-32 {
+.entrada-protege-una .frame-38 {
   width: 105px;
   align-items: center;
   gap: 10px;
@@ -837,7 +1038,7 @@ a {
   position: relative;
 }
 
-.entrada-protege-una .text-wrapper-13 {
+.entrada-protege-una .text-wrapper-22 {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -863,7 +1064,7 @@ a {
   background-color: #ffffff;
 }
 
-.entrada-protege-una .recurso-4 {
+.entrada-protege-una .recurso-2 {
   position: relative;
   max-width: 290px;
   width: 290px;
@@ -873,7 +1074,7 @@ a {
   object-fit: cover;
 }
 
-.entrada-protege-una .text-wrapper-14 {
+.entrada-protege-una .text-wrapper-23 {
   position: relative;
   width: fit-content;
   font-family: "Regesto Grotesk-Regular", Helvetica;
