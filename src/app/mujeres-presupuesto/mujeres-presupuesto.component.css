@@ -1,0 +1,729 @@
+.entrada-las-mujeres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.entrada-las-mujeres .nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 276px;
+  padding: 35px 80px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #000000;
+}
+
+.entrada-las-mujeres .dialogo {
+  display: flex;
+  flex-direction: column;
+  width: 139px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.entrada-las-mujeres .logo-dialogo {
+  position: relative;
+  width: 139px;
+  height: 34px;
+}
+
+.entrada-las-mujeres .frame {
+  flex-wrap: wrap;
+  width: 279px;
+  gap: 10px 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #5a5a5a;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.entrada-las-mujeres .search {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.entrada-las-mujeres .vector {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 3px;
+  left: 3px;
+}
+
+.entrada-las-mujeres .buscar {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 17px;
+  background-color: transparent;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: 0;
+  padding: 0;
+}
+
+.entrada-las-mujeres .buscar::placeholder {
+  color: #5a5a5a99;
+}
+
+.entrada-las-mujeres .img {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+.entrada-las-mujeres .body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: center;
+  gap: 40px;
+  padding: 0px 50px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .p {
+  position: relative;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .text-wrapper-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #c67ef0;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 8px;
+  padding: 10px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.entrada-las-mujeres .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .billete-ok {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.78;
+  object-fit: cover;
+}
+
+.entrada-las-mujeres .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 36px 36px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-7 {
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-las-mujeres .frame-8 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .div-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .span {
+  color: #000000;
+  letter-spacing: 0.02px;
+}
+
+.entrada-las-mujeres .text-wrapper-4 {
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #c67ef0;
+  letter-spacing: 0.02px;
+}
+
+.entrada-las-mujeres .frame-9 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 131px 131px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #c67ef0;
+  border-radius: 10px;
+}
+
+.entrada-las-mujeres .frame-10 {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-las-mujeres .text-wrapper-5 {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-11 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 51px 0px;
+  padding: 20px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 10px;
+}
+
+.entrada-las-mujeres .frame-12 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: center;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-las-mujeres .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .presupuestomujeres {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.entrada-las-mujeres .frame-13 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.entrada-las-mujeres .frame-14 {
+  flex-direction: column;
+  min-width: 390px;
+  gap: 25px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.entrada-las-mujeres .frame-15 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-16 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.entrada-las-mujeres .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-17 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 105px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-18 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 0px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.entrada-las-mujeres .leer-art-culo {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .comando {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 0px 40px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .anterior {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-las-mujeres .anterior:hover {
+  transform: scale(1.1);
+}
+
+.entrada-las-mujeres .vector-2 {
+  position: relative;
+  width: 7.41px;
+  height: 12px;
+}
+
+.entrada-las-mujeres .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #96134b;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .siguiente {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-las-mujeres .siguiente:hover {
+  transform: scale(1.1);
+}
+
+.entrada-las-mujeres .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #96134b;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-19 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 80px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  background-image: url(/public/img/frame-46.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.entrada-las-mujeres .frame-20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .text-wrapper-11 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-21 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 10px;
+  padding: 0px 20px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-las-mujeres .frame-22 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d9d9d9;
+}
+
+.entrada-las-mujeres .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .frame-23 {
+  display: flex;
+  width: 105px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.entrada-las-mujeres .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-las-mujeres .footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 0px;
+  padding: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.entrada-las-mujeres .recurso {
+  position: relative;
+  max-width: 290px;
+  width: 290px;
+  max-height: 59.76px;
+  height: 59.76px;
+  aspect-ratio: 4.85;
+  object-fit: cover;
+}
+
+.entrada-las-mujeres .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
