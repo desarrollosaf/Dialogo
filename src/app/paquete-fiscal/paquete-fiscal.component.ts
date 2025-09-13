@@ -4,8 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-paquete-fiscal',
   imports: [],
   templateUrl: './paquete-fiscal.component.html',
-  styleUrl: './paquete-fiscal.component.css'
+  styleUrl: './paquete-fiscal.component.css',
+  
 })
 export class PaqueteFiscalComponent {
+
+  ngOnInit(): void {
+    console.log('hi fiscal')
+  }
+
 
 }

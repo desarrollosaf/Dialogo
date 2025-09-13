@@ -11,43 +11,40 @@ import { PlasticoEdomexComponent } from './plastico-edomex/plastico-edomex.compo
 
 export const routes: Routes = [
     {
-        path: 'las_mujeres_al_frente_del_presupuesto',
-        component: MujeresPresupuestoComponent,
-        title: 'Mujeres presupuesto',
+        path: '',
+        loadComponent: () => import('./home/home.component').then(m => m.HomeComponent),
     },
     {
-        path: 'paquete_Fiscal_2025',
-        component: PaqueteFiscalComponent,
-        title: 'Paquete fiscal 2025',
+        path: 'mujeres_presupuesto',
+        loadComponent: () => import('./mujeres-presupuesto/mujeres-presupuesto.component').then(m => m.MujeresPresupuestoComponent),
     },
     {
-        path: 'derecho_al_ciudadano_digno',
-        component: DerechoCiudadanoComponent,
-        title: 'Derecho ciudadano ciudadano',
+        path: 'paridad_inclusion',
+        loadComponent: () => import('./paridad-inclusion/paridad-inclusion.component').then(m => m.ParidadInclusionComponent),
     },
     {
-        path: 'paridad_y_la_inclusion',
-        component: ParidadInclusionComponent,
-        title: 'Paridad y la inclusion',
+        path: 'patrimonio',
+        loadComponent: () => import('./patrimonio/patrimonio.component').then(m => m.PatrimonioComponent),
     },
     {
-        path: 'protege_tu_patrimonio',
-        component: PatrimonioComponent,
-        title: 'Protege tu patrimonio',
+        path: 'plastico_edomex',
+        loadComponent: () => import('./plastico-edomex/plastico-edomex.component').then(m => m.PlasticoEdomexComponent),
     },
     {
-        path: 'reforma_judicial_de_edomex',
-        component: ReformaJudicialComponent,
-        title: 'Protege tu patrimonio',
+        path: 'reforma_judicial',
+        loadComponent: () => import('./reforma-judicial/reforma-judicial.component').then(m => m.ReformaJudicialComponent),
     },
     {
         path: 'tala_clandestina',
-        component: TalaClandestinaComponent,
-        title: 'Tala clandestina',
+        loadComponent: () => import('./tala-clandestina/tala-clandestina.component').then(m => m.TalaClandestinaComponent),
     },
     {
-        path: 'blog_plastico',
-        component: PlasticoEdomexComponent,
-        title: 'Plastico Edomex',
+        path: 'paquete_fiscal',
+        loadComponent: () => import('./paquete-fiscal/paquete-fiscal.component').then(m => m.PaqueteFiscalComponent),
+    },
+    {
+        path: '',
+        redirectTo: '',
+        pathMatch: 'full'
     }
 ];
