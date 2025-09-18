@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { NewsletterComponent } from "../newsletter/newsletter.component";
 
 @Component({
   selector: 'app-plastico-edomex',
-  imports: [],
+  imports: [NewsletterComponent],
   templateUrl: './plastico-edomex.component.html',
   styleUrl: './plastico-edomex.component.css'
 })

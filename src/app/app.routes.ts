@@ -42,6 +42,10 @@ export const routes: Routes = [
         path: 'paquete_fiscal',
         loadComponent: () => import('./paquete-fiscal/paquete-fiscal.component').then(m => m.PaqueteFiscalComponent),
     },
+     {
+        path: 'derecho_al_ciudadano_digno',
+        loadComponent: () => import('./derecho-ciudadano/derecho-ciudadano.component').then(m => m.DerechoCiudadanoComponent),
+    },
     {
         path: '',
         redirectTo: '',

@@ -682,3 +682,14 @@ a {
   letter-spacing: 0;
   line-height: normal;
 }
+
+.text-wrapper-21 {
+  font-size: 13px;      /* puede necesitar !important */
+  color: #fff;          /* si btn-primary lo sobreescribe */
+  font-weight: 700;
+}
+
+button.text-wrapper-21 {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}

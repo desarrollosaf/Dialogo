@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { NewsletterComponent } from "../newsletter/newsletter.component";
 
 @Component({
   selector: 'app-derecho-ciudadano',
-  imports: [],
+  imports: [NewsletterComponent],
   templateUrl: './derecho-ciudadano.component.html',
   styleUrl: './derecho-ciudadano.component.css'
 })
