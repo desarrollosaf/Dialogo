@@ -1,90 +1,91 @@
+<body>
+  <div class="home-web">
+    <div class="nav-bar">
+      <div class="dialogo"><img class="logo-dialogo" src="img/logo-dialogo.svg" /></div>
+      <img class="img" src="img/frame-2.svg" />
+    </div>
 
-  <body>
-    <div class="home-web" data-model-id="280:764">
-      <div class="nav-bar">
-        <div class="dialogo"><img class="logo-dialogo" src="img/logo-dialogo.svg" /></div>
-        <div class="frame">
-          <div class="search"><img class="vector" src="img/vector.svg" /></div>
-          <input class="buscar" placeholder="Buscar" />
-        </div>
-        <img class="img" src="img/frame-2.svg" />
-      </div>
-      <div class="body">
-        <div class="div">
-          <div class="frame-2">
-            <div class="div-2">
-              <div class="div-2">
-                <div class="div-2">
-                  <div class="frame-3">
-                    <div class="frame-wrapper">
-                      <div class="frame-4">
-                        <div class="text-wrapper">Bienvenido a Diálogo</div>
-                        <p class="p">
-                          Diálogo es el blog del Congreso del Estado de México que busca informar y difundir de manera
-                          cercana, clara y accesible el quehacer legislativo que impacta directamente la cotidianidad de
-                          la sociedad mexiquense.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="frame-5">
-                      <div class="selecor-fecha">
-                        <div class="text-wrapper-2">2025</div>
-                        <div class="icono-flecha"><img class="icono-flecha-2" src="img/icono-flecha.svg" /></div>
-                      </div>
-                      <div class="frame-6">
-                        <div class="boton-trimestre"><div class="text-wrapper-3">1er trimestre</div></div>
-                        <div class="div-wrapper"><div class="text-wrapper-4">2do trimestre</div></div>
-                        <div class="div-wrapper"><div class="text-wrapper-4">3er trimestre</div></div>
-                        <div class="div-wrapper"><div class="text-wrapper-5">4to trimestre</div></div>
-                      </div>
-                    </div>
-                  </div>
-                  <img class="vector-2" src="img/vector-1.svg" />
-                </div>
-                <div class="frame-7"><div class="text-wrapper-6">Mantente al día</div></div>
+    <div class="body">
+      <div class="div">
+        <div class="frame-2">
+          <div class="frame-3">
+            <div class="frame-wrapper">
+              <div class="frame-4">
+                <div class="text-wrapper">Bienvenido a Diálogo</div>
+                <p class="p">
+                  Diálogo es el blog del Congreso del Estado de México que busca informar y difundir de manera cercana,
+                  clara y accesible el quehacer legislativo que impacta directamente la cotidianidad de la sociedad
+                  mexiquense.
+                </p>
               </div>
             </div>
-  
-            <div class="entradas">
-              <div class="entrada-blog">
-                <div class="div-2">
-                  <img class="imagen-entrada" src="img/imagen-entrada-1.png" />
-                  <div class="text-wrapper-7">Nombre del articulo</div>
+
+            <!-- Selector de años con select -->
+            <div class="frame-5">
+              <!-- <label for="anioSelect" class="text-wrapper-2">Año:</label> -->
+            
+                <select 
+                  id="anioSelect"
+                  [(ngModel)]="anioSeleccionado"
+                  class="selector-anio"
+                >
+                  <option *ngFor="let anio of [2024, 2025]" [value]="anio">
+                    {{ anio }}
+                  </option>
+                </select>
+                
+
+              <!-- Selector de trimestres -->
+              <div class="frame-6">
+                <div
+                  class="boton-trimestre"
+                  *ngFor="let trimestre of [1, 2, 3, 4]"
+                  (click)="cambiarTrimestre(trimestre)"
+                  [class.activo]="trimestreSeleccionado === trimestre"
+                >
+                  <div class="text-wrapper-3" >
+                    {{ trimestre
+                    }}{{ trimestre === 1 ? "er" : trimestre === 2 ? "do" : trimestre === 3 ? "er" : "to" }}
+                    trimestre
+                  </div>
                 </div>
-                <div class="boton"><div class="text-wrapper-8">Leer artículo</div></div>
               </div>
-              <div class="entrada-blog">
-                <div class="div-2">
-                  <img class="imagen-entrada" src="img/imagen-entrada-2.png" />
-                  <div class="text-wrapper-9">Nombre del articulo</div>
-                  <div class="boton"><div class="text-wrapper-8">Leer artículo</div></div>
-                </div>
+            </div>
+          </div>
+          <img class="vector-2" src="img/vector-1.svg" />
+          <div class="frame-7">
+            <div class="text-wrapper-6">Mantente al día</div>
+          </div>
+
+          <!-- Entradas dinámicas -->
+          <div class="entradas">
+            <div class="entrada-blog" *ngFor="let articulo of articulos[anioSeleccionado][trimestreSeleccionado]">
+              <div class="div-2">
+                <img class="imagen-entrada" [src]="articulo.img" />
+                <div class="text-wrapper-7">{{ articulo.titulo }}</div>
               </div>
-              <div class="entrada-blog-2">
-                <div class="frame-8">
-                  <img class="imagen-entrada" src="img/imagen-entrada-3.png" />
-                  <div class="text-wrapper-9">Nombre del articulo</div>
-                </div>
-                <div class="boton"><div class="text-wrapper-8">Leer artículo</div></div>
-              </div>
+              <div class="boton" [routerLink]="articulo.ruta"><div class="text-wrapper-8">Leer artículo</div></div>
             </div>
             <img class="vector-2" src="img/vector-1.svg" />
           </div>
+        </div>
+          <!-- Newsletter -->
           <div class="newsletter">
             <div class="frame-9">
               <div class="text-wrapper-10">Unete a nuestro Newsletter</div>
-              <p class="text-wrapper-11">No te pierdas de ninguno de nuestras entradas</p>
+              <p class="text-wrapper-11">No te pierdas de ninguna de nuestras entradas</p>
             </div>
             <div class="formulario-registro">
-              <input class="mail-label" placeholder="Correo" />
-              <div class="boton-registro"><div class="text-wrapper-8">Registrarme</div></div>
+              <app-newsletter></app-newsletter>
             </div>
           </div>
-        </div>
+        
       </div>
-      <footer class="footer">
-        <img class="recurso" src="img/recurso-1.png" />
-        <div class="text-wrapper-12">Aviso de privacidad</div>
-      </footer>
     </div>
 
+    <footer class="footer">
+      <img class="recurso" src="img/recurso-1.png" />
+      <div class="text-wrapper-12">Aviso de privacidad</div>
+    </footer>
+  </div>
+</body>

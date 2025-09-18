@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "dialogo",
-    "host": "localhost",
+    "username": "usr_dialogo",
+    "password": "6VJNiRsTZAj96HgZnc4G",
+    "database": "adminplem_dialogo",
+    "host": "192.168.36.53",
     "dialect": "mysql"
   }
 }

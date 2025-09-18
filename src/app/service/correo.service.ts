@@ -14,12 +14,12 @@ export class CorreoService {
 
     constructor() {
         this.myAppUrl = enviroment.endpoint;
-        this.myAPIUrl ='';
+        this.myAPIUrl ='api/correo';
     }
 
 
     sendCorreo(data:any): Observable<string> {
-        return this.http.post<string>(`${this.myAppUrl}${this.myAPIUrl}api/correo/save/`,data)
+        return this.http.post<string>(`${this.myAppUrl}${this.myAPIUrl}/save/`,data)
     }
 
 

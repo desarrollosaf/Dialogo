@@ -1,5 +1,5 @@
 
 export const enviroment = {
     production: false,
-    endpoint: 'http://localhost:3001/'
+    endpoint: 'https://dev8.siasaf.gob.mx/backend/'
   };

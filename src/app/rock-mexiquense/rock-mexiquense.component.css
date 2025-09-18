@@ -1,0 +1,913 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Regesto Grotesk-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/68a8cc887f4d3b16d0728dd1/fonts/regestogrotesk-bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Regesto Grotesk-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/68a8cc887f4d3b16d0728dd1/fonts/regestogrotesk-regular.ttf")
+    format("truetype");
+}
+.entrada-paridad-y-la {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.entrada-paridad-y-la .nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 276px;
+  padding: 35px 80px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #000000;
+}
+
+.entrada-paridad-y-la .dialogo {
+  display: flex;
+  flex-direction: column;
+  width: 139px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.entrada-paridad-y-la .logo-dialogo {
+  position: relative;
+  width: 139px;
+  height: 34px;
+}
+
+.entrada-paridad-y-la .frame {
+  flex-wrap: wrap;
+  width: 279px;
+  align-items: center;
+  gap: 10px 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #5a5a5a;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .search {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.entrada-paridad-y-la .vector {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 3px;
+  left: 3px;
+}
+
+.entrada-paridad-y-la .buscar {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 17px;
+  background-color: transparent;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: 0;
+  padding: 0;
+}
+
+.entrada-paridad-y-la .buscar::placeholder {
+  color: #5a5a5a99;
+}
+
+.entrada-paridad-y-la .img {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+.entrada-paridad-y-la .div {
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  align-items: center;
+  gap: 40px;
+  padding: 0px 50px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .frame-2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-3 {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .div-wrapper {
+  flex-direction: column;
+  max-width: 950px;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-4 {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #87888b;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-5 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .billete-ok {
+  align-self: stretch;
+  min-width: 280px;
+  width: 100%;
+  min-height: 157.5px;
+  aspect-ratio: 1.78;
+  position: relative;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-6 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .billete-ok-2 {
+  width: 300px;
+  height: 260px;
+  aspect-ratio: 1.15;
+  position: relative;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-7 {
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-8 {
+  flex-direction: column;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .los-algo {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 2.92;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-wrapper {
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 0px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-9 {
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-10 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-11 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px 25px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-7 {
+  position: relative;
+  flex: 1;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .rocker {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-12 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 20px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-13 {
+  flex-direction: column;
+  min-width: 280px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-14 {
+  flex-direction: column;
+  min-width: 300px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .avandaro {
+  position: relative;
+  flex: 1;
+  min-width: 280px;
+  flex-grow: 1;
+  min-height: 396.07px;
+  aspect-ratio: 0.71;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-15 {
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  padding: 40px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .mapa {
+  position: relative;
+  flex: 1;
+  min-width: 280px;
+  flex-grow: 1;
+  min-height: 282.98px;
+  aspect-ratio: 0.99;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-16 {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-17 {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-11 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .magazine {
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  flex-grow: 1;
+  max-height: 250.28px;
+  aspect-ratio: 1.2;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-18 {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 60px;
+  padding: 0px 40px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-19 {
+  flex-direction: column;
+  min-width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 131px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-20 {
+  display: flex;
+  flex-direction: column;
+  min-width: 390px;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 0px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-21 {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .recurso {
+  position: relative;
+  max-width: 650px;
+  width: 100%;
+  max-height: 427.62px;
+  aspect-ratio: 1.52;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .frame-22 {
+  flex-direction: column;
+  align-items: center;
+  gap: 105px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-23 {
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 0px 30px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.entrada-paridad-y-la .leer-art-culo {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .comando {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 0px 40px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.entrada-paridad-y-la .anterior {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-paridad-y-la .anterior:hover {
+  transform: scale(1.1);
+}
+
+.entrada-paridad-y-la .vector-2 {
+  position: relative;
+  width: 7.41px;
+  height: 12px;
+}
+
+.entrada-paridad-y-la .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #96134b;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .siguiente {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-paridad-y-la .siguiente:hover {
+  transform: scale(1.1);
+}
+
+.entrada-paridad-y-la .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #96134b;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-24 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 80px 0px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  
+  background-image: url('/rock/img/frame-46.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-25 {
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .text-wrapper-16 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-26 {
+  flex-wrap: wrap;
+  max-width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 10px;
+  padding: 0px 20px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .frame-27 {
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #d9d9d9;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .frame-28 {
+  width: 105px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.entrada-paridad-y-la .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.entrada-paridad-y-la .footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 0px;
+  padding: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.entrada-paridad-y-la .recurso-2 {
+  position: relative;
+  max-width: 290px;
+  width: 290px;
+  max-height: 59.76px;
+  height: 59.76px;
+  aspect-ratio: 4.85;
+  object-fit: cover;
+}
+
+.entrada-paridad-y-la .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  font-family: "Regesto Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}

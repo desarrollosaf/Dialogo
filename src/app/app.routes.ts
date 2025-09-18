@@ -46,6 +46,14 @@ export const routes: Routes = [
         path: 'derecho_al_ciudadano_digno',
         loadComponent: () => import('./derecho-ciudadano/derecho-ciudadano.component').then(m => m.DerechoCiudadanoComponent),
     },
+     {
+        path: 'rock_mexiquense',
+        loadComponent: () => import('./rock-mexiquense/rock-mexiquense.component').then(m => m.RockMexiquenseComponent),
+    },
+     {
+        path: 'maternidad_libre',
+        loadComponent: () => import('./maternidad-libre/maternidad-libre.component').then(m => m.MaternidadLibreComponent),
+    },
     {
         path: '',
         redirectTo: '',

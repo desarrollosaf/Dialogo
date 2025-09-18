@@ -19,7 +19,7 @@ const correo_1 = __importDefault(require("../routes/correo"));
 class Server {
     constructor() {
         this.app = (0, express_1.default)();
-        this.port = process.env.PORT || '3001';
+        this.port = process.env.PORT || '3005';
         this.midlewares();
         this.router();
         this.DBconnetc();
