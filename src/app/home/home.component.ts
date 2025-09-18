@@ -20,25 +20,25 @@ export class HomeComponent implements OnInit{
   articulos: any = {
     2024: {
       4: [
-        { titulo: 'Protege tu patrimonio', img: '/img/imagen-entrada-1.png', ruta: '/patrimonio' },
-        { titulo: 'Paridad y la inclusion', img: '/img/imagen-entrada-2.png', ruta: '/paridad_inclusion' },
+        { titulo: 'Protege tu patrimonio', img: '/patrimonio/img/billete-1-ok-1.png', ruta: '/patrimonio' },
+        { titulo: 'Paridad y la inclusion', img: '/paridad/img/billete-1-ok-1.png', ruta: '/paridad_inclusion' },
         // { titulo: '16/ diciembre /2024 ', img: '/img/imagen-entrada-3.png', ruta: '/' },
       ],
     },
     2025: {
       1: [
-        { titulo: 'Reforma Judicial del Edomex', img: '/img/imagen-entrada-1.png', ruta: '/reforma_judicial' },
-        { titulo: 'Paquete Fiscal 2025', img: '/img/imagen-entrada-2.png', ruta: '/paquete_fiscal' },
-        { titulo: 'Las mujeres al frente del presente', img: '/img/imagen-entrada-3.png', ruta: '/mujeres_presupuesto' }
+        { titulo: 'Reforma Judicial del Edomex', img: '/reforma/img/billete-1-ok-1.png', ruta: '/reforma_judicial' },
+        { titulo: 'Paquete Fiscal 2025', img: 'https://c.animaapp.com/udhLWezT/img/billete-1-ok-1.png', ruta: '/paquete_fiscal' },
+        { titulo: 'Las mujeres al frente del presente', img: '/mujeres/img/billete-1-ok-1.png', ruta: '/mujeres_presupuesto' }
       ],
       2: [
-        { titulo: 'Tala Clandestina', img: '/img/imagen-entrada-1.png', ruta: '/tala_clandestina' },
-        { titulo: 'Maternidad libre', img: '/img/imagen-entrada-2.png', ruta: '/maternidad_libre' },
-        { titulo: 'Derecho al ciudadano digno', img: '/img/imagen-entrada-3.png', ruta: '/derecho_al_ciudadano_digno' },
+        { titulo: 'Tala Clandestina', img: '/tala/img/billete-1-ok-1.png', ruta: '/tala_clandestina' },
+        { titulo: 'Maternidad libre', img: '/maternidad/img/billete-1-ok-1.png', ruta: '/maternidad_libre' },
+        { titulo: 'Derecho al ciudadano digno', img: '/ciudadano/img/billete-1-ok-1.png', ruta: '/derecho_al_ciudadano_digno' },
       ],
       3: [
         { titulo: 'Bolsas', img: '/img/imagen-entrada-1.png', ruta: '/plastico_edomex' },
-        { titulo: 'Rock mexiquense', img: '/img/imagen-entrada-2.png', ruta: '/rock_mexiquense' },
+        { titulo: 'Rock mexiquense', img: 'rock/img/billete-1-ok-1.png', ruta: '/rock_mexiquense' },
       ],
     },
   };

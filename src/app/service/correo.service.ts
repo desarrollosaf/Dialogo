@@ -19,7 +19,7 @@ export class CorreoService {
 
 
     sendCorreo(data:any): Observable<string> {
-        return this.http.post<string>(`${this.myAppUrl}${this.myAPIUrl}/save/`,data)
+        return this.http.post<string>(`${this.myAppUrl}${this.myAPIUrl}/save`,data)
     }
 
 
