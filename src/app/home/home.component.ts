@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit{
       1: [
         { titulo: 'Reforma Judicial del Edomex', img: '/reforma/img/billete-1-ok-1.png', ruta: '/reforma_judicial' },
         { titulo: 'Paquete Fiscal 2025', img: 'https://c.animaapp.com/udhLWezT/img/billete-1-ok-1.png', ruta: '/paquete_fiscal' },
-        { titulo: 'Las mujeres al frente del presente', img: '/mujeres/img/billete-1-ok-1.png', ruta: '/mujeres_presupuesto' }
+        { titulo: 'Las mujeres al frente del presupuesto', img: '/mujeres/img/billete-1-ok-1.png', ruta: '/mujeres_presupuesto' }
       ],
       2: [
         { titulo: 'Tala Clandestina', img: '/tala/img/billete-1-ok-1.png', ruta: '/tala_clandestina' },
