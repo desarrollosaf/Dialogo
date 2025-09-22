@@ -7,8 +7,8 @@ import { Sequelize } from "sequelize"
 //         freezeTableName: true // evita que Sequelize pluralice
 //     }
 // })
-const sequelize = new Sequelize('adminplem_dialogo', 'usr_dialogo', '6VJNiRsTZAj96HgZnc4G', {
-    host: '192.168.36.53',
+const sequelize = new Sequelize('adminleg_dialogo', 'adminleg_dialogo', 'Querty12_12*', {
+    host: '72.167.46.27',
     dialect: 'mysql',
     define: {
         freezeTableName: true // evita que Sequelize pluralice

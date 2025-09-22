@@ -8,8 +8,8 @@ const sequelize_1 = require("sequelize");
 //         freezeTableName: true // evita que Sequelize pluralice
 //     }
 // })
-const sequelize = new sequelize_1.Sequelize('adminplem_dialogo', 'usr_dialogo', '6VJNiRsTZAj96HgZnc4G', {
-    host: '192.168.36.53',
+const sequelize = new sequelize_1.Sequelize('adminleg_dialogo', 'adminleg_dialogo', 'Querty12_12*', {
+    host: '72.167.46.27',
     dialect: 'mysql',
     define: {
         freezeTableName: true // evita que Sequelize pluralice
