@@ -5,7 +5,7 @@
           <div class="search"><img class="vector" src="img/vector.svg" /></div>
           <input class="buscar" placeholder="Buscar" />
         </div> -->
-        <img class="img" src="img/frame-2.svg" />
+        <!-- <img class="img" src="img/frame-2.svg" /> -->
       </div>
       <div class="body">
         <div class="div">
@@ -269,16 +269,20 @@
       </div>
       <div class="frame-32">
         <div class="frame-33">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/Patrimonio_mexiquense.pdf" download="Patrimonio mexiquense.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="anterior">
+            <a [routerLink]="['/reforma_judicial']" class="anterior">
               <img class="vector-2" src="patrimonio/img/vector-1.svg" />
               <div class="text-wrapper-17">Anterior</div>
-            </div>
-            <div class="siguiente">
+            </a>
+            <a [routerLink]="['/paridad_inclusion']"  class="siguiente">
               <div class="text-wrapper-18">Siguiente</div>
               <img class="vector-2" src="patrimonio/img/vector-2.svg" />
-            </div>
+            </a>
           </div>
           <div class="frame-34">
             <div class="frame-35">

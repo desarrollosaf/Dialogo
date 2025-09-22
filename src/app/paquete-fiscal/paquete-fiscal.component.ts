@@ -12,9 +12,10 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { CorreoService } from '../service/correo.service';
 import { NewsletterComponent } from "../newsletter/newsletter.component";
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-paquete-fiscal',
-  imports: [CommonModule, FormsModule, HttpClientModule, NewsletterComponent],
+  imports: [CommonModule, FormsModule, HttpClientModule, NewsletterComponent, RouterModule],
   templateUrl: './paquete-fiscal.component.html',
   styleUrl: './paquete-fiscal.component.css',
 })

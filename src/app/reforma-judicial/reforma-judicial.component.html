@@ -7,7 +7,7 @@
           </div>
           <input class="buscar" placeholder="Buscar" /> -->
         <!-- </div> -->
-        <img class="img" src="img/frame-2.svg" />
+        <!-- <img class="img" src="img/frame-2.svg" /> -->
       </div>
       <div class="body">
         <div class="frame-wrapper">
@@ -217,16 +217,20 @@
       </div>
       <div class="frame-18">
         <div class="frame-19">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/Reforma Judicial.pdf" download="Reforma Judicial.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="anterior">
+           <a [routerLink]="['/paridad_inclusion']" class="anterior">
               <img class="vector-2" src="reforma/img/vector-1.svg" />
               <div class="text-wrapper-9">Anterior</div>
-            </div>
-            <div class="siguiente">
+           </a>
+            <a [routerLink]="['/paquete_fiscal']"  class="siguiente">
               <div class="text-wrapper-10">Siguiente</div>
               <img class="vector-2" src="reforma/img/vector-2.svg" />
-            </div>
+            </a>
           </div>
           <div class="frame-20">
             <div class="frame-21">

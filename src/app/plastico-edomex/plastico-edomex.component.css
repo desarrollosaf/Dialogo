@@ -593,11 +593,12 @@ a {
 
 .entrada-bolsas .comando {
   display: flex;
+  max-width: 1000px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
   padding: 0px 40px;
   position: relative;
-  align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
@@ -692,6 +693,35 @@ a {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.entrada-bolsas .anterior {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-bolsas .anterior:hover {
+  transform: scale(1.1);
+}
+
+.entrada-bolsas  .siguiente {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-bolsas  .siguiente:hover {
+  transform: scale(1.1);
 }
 
 .entrada-bolsas .text-wrapper-15 {

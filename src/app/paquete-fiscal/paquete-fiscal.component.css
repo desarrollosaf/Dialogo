@@ -116,6 +116,35 @@ a {
   flex: 0 0 auto;
 }
 
+.entrada-paquete .anterior {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-paquete .anterior:hover {
+  transform: scale(1.1);
+}
+
+.entrada-paquete .siguiente {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  transition: all 0.2s ease;
+}
+
+.entrada-paquete .siguiente:hover {
+  transform: scale(1.1);
+}
+
 .entrada-paquete .div {
   display: flex;
   flex-direction: column;
@@ -473,11 +502,12 @@ a {
 
 .entrada-paquete .comando {
   display: flex;
+  max-width: 1000px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
   padding: 0px 40px;
   position: relative;
-  align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }

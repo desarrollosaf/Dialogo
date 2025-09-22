@@ -5,7 +5,7 @@
           <div class="search"><img class="vector" src="img/vector.svg" /></div>
           <input class="buscar" placeholder="Buscar" />
         </div> -->
-        <img class="img" src="img/frame-2.svg" />
+        <!-- <img class="img" src="img/frame-2.svg" /> -->
       </div>
       <div class="body">
         <div class="frame-wrapper">
@@ -146,16 +146,20 @@
       </div>
       <div class="frame-16">
         <div class="frame-17">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/Maternidad 29 may.pdf" download="Maternidad 29 may.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="anterior">
+            <a [routerLink]="['/tala_clandestina']" [queryParams]="{debug: true}" fragment="education" class="anterior">
               <img class="vector-2" src="maternidad/img/vector-1.svg" />
               <div class="text-wrapper-9">Anterior</div>
-            </div>
-            <div class="siguiente">
+            </a>
+            <a [routerLink]="['/derecho_al_ciudadano_digno']" [queryParams]="{debug: true}" fragment="education" class="siguiente">
               <div class="text-wrapper-10">Siguiente</div>
-              <img class="vector-2" src="maternidad/img/vector-2.svg" />
-            </div>
+              <img class="vector-2" src="ciudadano/img/vector-2.svg" />
+            </a>
           </div>
           <div class="frame-18">
             <div class="frame-19">

@@ -5,7 +5,7 @@
           <div class="search"><img class="vector" src="img/vector.svg" /></div>
           <input class="buscar" placeholder="Buscar" />
         </div> -->
-        <img class="img" src="img/frame-2.svg" />
+        <!-- <img class="img" src="img/frame-2.svg" /> -->
       </div>
       <div class="div">
         <div class="body">
@@ -231,16 +231,20 @@
       </div>
       <div class="frame-26">
         <div class="frame-27">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/paridad y la inclusión.pdf" download="Paridad y la inclusión.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="anterior">
+            <a [routerLink]="['/patrimonio']" class="anterior">
               <img class="vector-2" src="paridad/img/vector-1.svg" />
               <div class="text-wrapper-16">Anterior</div>
-            </div>
-            <div class="siguiente">
+            </a>
+            <a [routerLink]="['/reforma_judicial']" [queryParams]="{debug: true}" fragment="education" class="siguiente">
               <div class="text-wrapper-17">Siguiente</div>
               <img class="vector-2" src="paridad/img/vector-2.svg" />
-            </div>
+            </a>
           </div>
           <div class="frame-28">
             <div class="frame-29">

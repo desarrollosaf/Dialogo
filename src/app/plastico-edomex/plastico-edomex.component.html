@@ -5,7 +5,7 @@
           <img class="img" src="https://c.animaapp.com/oI9TknaH/img/search-1.svg" />
           <input class="buscar" placeholder="Buscar" />
         </div> -->
-        <img class="frame-2" src="https://c.animaapp.com/oI9TknaH/img/frame-2.svg" />
+        <!-- <img class="frame-2" src="https://c.animaapp.com/oI9TknaH/img/frame-2.svg" /> -->
       </div>
       <div class="div">
         <div class="frame-3">
@@ -148,16 +148,20 @@
           </div>
         </div>
         <div class="frame-22">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/Plástico Edomex.pdf" download="Plástico Edomex.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="frame-23">
+            <a [routerLink]="['/derecho_al_ciudadano_digno']" class="anterior">
               <img class="img" src="https://c.animaapp.com/oI9TknaH/img/keyboard-arrow-right-24dp-828282-1.svg" />
               <div class="text-wrapper-12">Anterior</div>
-            </div>
-            <div class="frame-24">
+            </a>
+            <a [routerLink]="['/rock_mexiquense']"  class="siguiente">
               <div class="text-wrapper-13">Siguiente</div>
               <img class="img" src="https://c.animaapp.com/oI9TknaH/img/keyboard-arrow-right-24dp-828282-2.svg" />
-            </div>
+            </a>
           </div>
           <div class="frame-25">
             <div class="frame-26">

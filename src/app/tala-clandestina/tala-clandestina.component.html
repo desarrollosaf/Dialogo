@@ -220,16 +220,20 @@
       </div>
       <div class="frame-17">
         <div class="frame-18">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/Tala ilegal 24 abr.pdf" download="Tala ilegal.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="anterior">
+            <a [routerLink]="['/mujeres_presupuesto']" class="anterior">
               <img class="vector-2" src="tala/img/vector-1.svg" />
               <div class="text-wrapper-14">Anterior</div>
-            </div>
-            <div class="siguiente">
+            </a>
+             <a [routerLink]="['/maternidad_libre']"  class="siguiente">
               <div class="text-wrapper-15">Siguiente</div>
               <img class="vector-2" src="tala/img/vector-2.svg" />
-            </div>
+             </a>
           </div>
           <div class="frame-19">
             <div class="frame-20">

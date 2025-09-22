@@ -1,11 +1,13 @@
 <div class="entrada-protege-una" data-model-id="289:717">
       <div class="nav-bar">
-        <div class="dialogo"><img class="logo-dialogo" src="img/logo-dialogo.svg" /></div>
+        <div class="dialogo">
+          <img class="logo-dialogo" src="img/logo-dialogo.svg" />
+        </div>
         <!-- <div class="frame">
           <div class="search"><img class="vector" src="img/vector.svg" /></div>
           <input class="buscar" placeholder="Buscar" />
         </div> -->
-        <img class="img" src="img/frame-2.svg" />
+        <!-- <img class="img" src="img/frame-2.svg" /> -->
       </div>
       <div class="body">
         <div class="div">
@@ -177,16 +179,20 @@
       </div>
       <div class="frame-26">
         <div class="frame-27">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/DERECHOALCUIDADODIGNO.pdf" download="DERECHOALCUIDADODIGNO.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="anterior">
-              <img class="vector-2" src="ciudadano/img/vector-1.svg" />
+            <a [routerLink]="['/maternidad_libre']" [queryParams]="{debug: true}" fragment="education" class="anterior">
+              <img class="vector-2" src="/ciudadano/img/vector-1.svg" />
               <div class="text-wrapper-8">Anterior</div>
-            </div>
-            <div class="siguiente">
+            </a>
+            <a [routerLink]="['/plastico_edomex']" [queryParams]="{debug: true}" fragment="education" class="siguiente">
               <div class="text-wrapper-9">Siguiente</div>
               <img class="vector-2" src="ciudadano/img/vector-2.svg" />
-            </div>
+            </a>
           </div>
           <div class="frame-28">
             <div class="frame-29">

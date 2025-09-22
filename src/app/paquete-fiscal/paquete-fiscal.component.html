@@ -7,7 +7,7 @@
           <img class="img" src="https://c.animaapp.com/udhLWezT/img/search-1.svg" />
           <input class="buscar" placeholder="Buscar" />
         </div> -->
-        <img class="frame-2" src="https://c.animaapp.com/udhLWezT/img/frame-2.svg" />
+        <!-- <img class="frame-2" src="https://c.animaapp.com/udhLWezT/img/frame-2.svg" /> -->
       </div>
       <div class="body">
         <div class="div">
@@ -121,16 +121,20 @@
       </div>
       <div class="frame-16">
         <div class="frame-17">
-          <div class="boton"><div class="leer-art-culo">Descargar infografía</div></div>
+          <div class="boton">
+            <a href="pdf/Paquete Fiscal 2025.pdf" download="Paquete Fiscal 2025.pdf" class="leer-art-culo">
+              Descargar infografía
+            </a>
+          </div>
           <div class="comando">
-            <div class="frame-18">
+            <a [routerLink]="['/tala_clandestina']" [queryParams]="{debug: true}" fragment="education" class="anterior">
               <img class="img" src="https://c.animaapp.com/udhLWezT/img/keyboard-arrow-right-24dp-828282-1.svg" />
               <div class="text-wrapper-8">Anterior</div>
-            </div>
-            <div class="frame-19">
+            </a>
+            <a [routerLink]="['/mujeres_presupuesto']" [queryParams]="{debug: true}" fragment="education" class="siguiente">
               <div class="text-wrapper-9">Siguiente</div>
               <img class="img" src="https://c.animaapp.com/udhLWezT/img/keyboard-arrow-right-24dp-828282-2.svg" />
-            </div>
+            </a>
           </div>
           <div class="frame-20">
             <div class="frame-21">
