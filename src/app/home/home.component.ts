@@ -11,18 +11,16 @@ import { RouterModule } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
   title = 'Dialogo';
   anioSeleccionado: number = 2025;
   trimestreSeleccionado: number = 1;
 
-  // Datos estáticos por año y trimestre
   articulos: any = {
     2024: {
       4: [
         { titulo: '¿Sabías que el Congreso mexiquense protege tu patrimonio?', img: '/patrimonio/img/billete-1-ok-1.png', ruta: '/patrimonio' },
         { titulo: 'LXII Legislatura, Legislatura histórica de la Paridad y la inclusión', img: '/paridad/img/billete-1-ok-1.png', ruta: '/paridad_inclusion' },
-        // { titulo: '16/ diciembre /2024 ', img: '/img/imagen-entrada-3.png', ruta: '/' },
       ],
     },
     2025: {
@@ -45,13 +43,18 @@ export class HomeComponent implements OnInit{
 
   cambiarAnio(anio: number) {
     this.anioSeleccionado = anio;
-    this.trimestreSeleccionado = 1; // Reiniciar en primer trimestre
+    this.trimestreSeleccionado = 1; 
   }
 
   cambiarTrimestre(trimestre: number) {
     this.trimestreSeleccionado = trimestre;
   }
+
   ngOnInit(): void {
-    
+    const fecha = new Date();
+
+    this.anioSeleccionado = fecha.getFullYear();
+    const mes = fecha.getMonth();
+    this.trimestreSeleccionado = Math.floor(mes / 3) + 1;
   }
 }

@@ -37,18 +37,14 @@
 
               <!-- Selector de trimestres -->
               <div class="frame-6">
-                <div
-                  class="boton-trimestre"
-                  *ngFor="let trimestre of [1, 2, 3, 4]"
-                  (click)="cambiarTrimestre(trimestre)"
-                  [class.activo]="trimestreSeleccionado === trimestre"
-                >
-                  <div class="text-wrapper-3" >
-                    {{ trimestre
-                    }}{{ trimestre === 1 ? "er" : trimestre === 2 ? "do" : trimestre === 3 ? "er" : "to" }}
-                    trimestre
+                  <div class="boton-trimestre"
+                    *ngFor="let trimestre of [1, 2, 3, 4]"
+                    (click)="cambiarTrimestre(trimestre)"
+                    [class.activo]="trimestreSeleccionado === trimestre">
+                    <div class="text-wrapper-3">
+                    {{ trimestre }}{{ trimestre === 1 ? "er" : trimestre === 2 ? "do" : trimestre === 3 ? "er" : "to" }} trimestre
+                    </div>
                   </div>
-                </div>
               </div>
             </div>
           </div>
