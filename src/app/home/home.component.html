@@ -20,37 +20,16 @@
               </div>
             </div>
 
-            <!-- Selector de años con select -->
-            <div class="frame-5">
-              <!-- <label for="anioSelect" class="text-wrapper-2">Año:</label> -->
+           
             
-                <select 
-                  id="anioSelect"
-                  [(ngModel)]="anioSeleccionado"
-                  class="selector-anio"
-                >
-                  <option *ngFor="let anio of [2024, 2025]" [value]="anio">
-                    {{ anio }}
-                  </option>
-                </select>
-                
-
-              <!-- Selector de trimestres -->
-              <div class="frame-6">
-                  <div class="boton-trimestre"
-                    *ngFor="let trimestre of [1, 2, 3, 4]"
-                    (click)="cambiarTrimestre(trimestre)"
-                    [class.activo]="trimestreSeleccionado === trimestre">
-                    <div class="text-wrapper-3">
-                    {{ trimestre }}{{ trimestre === 1 ? "er" : trimestre === 2 ? "do" : trimestre === 3 ? "er" : "to" }} trimestre
-                    </div>
-                  </div>
-              </div>
-            </div>
           </div>
-          <img class="vector-2" src="img/vector-1.svg" />
-          <div class="frame-7">
-            <div class="text-wrapper-6">Mantente al día</div>
+          <div class="w-layout-blockcontainer container w-container">
+            <h1 class="heading-3">Lo más reciente</h1>
+            <div class="w-layout-blockcontainer container-2 w-container"></div>
+            <p class="paragraph-2">El rock ya tiene su día en el calendario mexiquense</p>
+            <p class="paragraph-3">19 de septiembre 2025</p>
+            <p class="paragraph-4">Fue la diputada María del Carmen de la Rosa Mendoza (morena) quien subió a tribuna para proponer el Día del Rock Estatal, el cual justificó a través de una playlist poderosa, contundente y respaldada con argumentos culturales, históricos y sociales de cómo el rock ha sido una vía de expresión para la juventud, una manifestación de resistencia ante los modelos musicales impuestos por el marketing, así como un símbolo de libertad artística y reivindicación cultural en el Estado de México, en el país y en el mundo.</p>
+            <a [routerLink]="'/rock_mexiquense'"  class="button w-button boton">Leer artículo</a>
           </div>
 
           <!-- Entradas dinámicas -->
@@ -62,7 +41,28 @@
               </div>
               <div class="boton" [routerLink]="articulo.ruta"><div class="text-wrapper-8">Leer artículo</div></div>
             </div>
-            <img class="vector-2" src="img/vector-1.svg" />
+          </div>
+
+          <div class="frame-5">
+                <select 
+                  id="anioSelect"
+                  [(ngModel)]="anioSeleccionado"
+                  class="selector-anio">
+                  <option *ngFor="let anio of [2024, 2025]" [value]="anio">
+                    {{ anio }}
+                  </option>
+                </select>
+              <div class="frame-6">
+                  <div class="boton-trimestre"
+                    *ngFor="let trimestre of [1, 2, 3, 4]"
+                    (click)="cambiarTrimestre(trimestre)"
+                    [class.activo]="trimestreSeleccionado === trimestre">
+                    <div class="text-wrapper-3">
+                    {{ trimestre }}{{ trimestre === 1 ? "er" : trimestre === 2 ? "do" : trimestre === 3 ? "er" : "to" }} trimestre
+                    </div>
+                  </div>
+              </div>
+              <img class="vector-2" src="img/vector-1.svg" />
           </div>
         </div>
           <!-- Newsletter -->

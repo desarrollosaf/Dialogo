@@ -686,3 +686,103 @@ a {
   font-size: 16px;
   font-weight: 600;
 }
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container,
+.container-3 {
+  max-width: 100%;
+}
+.container-2 {
+  width: 100%;
+  max-width: 100%;
+  height: 350px;
+  max-height: 500px;
+  border-radius: 20px;
+  /* background: url('../images/Rectangle-42.png') 50% 0 / cover; */
+  background: url('/img/Rectangle-42.png')50% 0 / cover;
+}
+
+.heading-3 {
+  padding: 0;
+}
+.heading-3 {
+  font-size: 20px;
+   position: relative;
+  font-family: "Regesto Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h1 {
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+.paragraph-2 {
+  margin-top: 20px;
+  font-family: var(--font-main);
+  font-weight: 700;
+   font-family: "Regesto Grotesk-Bold", Helvetica;
+}
+.paragraph-3 {
+  color: #88898c;
+   font-family: "Regesto Grotesk-Bold", Helvetica;
+}
+
+/* .paragraph-4 {
+  margin-top: 20px;
+  font-weight: 700;
+   font-family: 'Regestogrotesk', Arial, sans-serif;
+} */
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  
+}
+
+.w-button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898EC;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.button {
+  background-color: #000;
+  border-radius: 10px;
+  transition: opacity .2s;
+   font-family: "Regesto Grotesk-Bold", Helvetica;
+}
+.button-2 {
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 0;
+  font-family: var(--font-main);
+  font-weight: 700;
+  margin-right: 20px;
+   font-family: "Regesto Grotesk-Bold", Helvetica;
+}
+
+input.w-button {
+  -webkit-appearance: button;
+}
+
