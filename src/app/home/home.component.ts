@@ -52,9 +52,14 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     const fecha = new Date();
-
     this.anioSeleccionado = fecha.getFullYear();
     const mes = fecha.getMonth();
     this.trimestreSeleccionado = Math.floor(mes / 3) + 1;
   }
+  dropdownAbierto = false;
+
+toggleDropdown() {
+  this.dropdownAbierto = !this.dropdownAbierto;
+}
+
 }
